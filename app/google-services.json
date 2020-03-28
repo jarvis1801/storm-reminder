@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "231725178842",
+    "firebase_url": "https://storm-reminder-488f2.firebaseio.com",
+    "project_id": "storm-reminder-488f2",
+    "storage_bucket": "storm-reminder-488f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231725178842:android:af06d14f38e3f8effa6ae3",
+        "android_client_info": {
+          "package_name": "com.jarvis.stormreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231725178842-q85t31bc1denuvqg8hgdb0d755db3etd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL_eggFzRiTR9QTlGY_Q3UGPEiUZHDC1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231725178842-q85t31bc1denuvqg8hgdb0d755db3etd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231725178842:android:01fdad8fab646ed3fa6ae3",
+        "android_client_info": {
+          "package_name": "com.jarvis.stormreminder.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231725178842-q85t31bc1denuvqg8hgdb0d755db3etd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL_eggFzRiTR9QTlGY_Q3UGPEiUZHDC1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231725178842-q85t31bc1denuvqg8hgdb0d755db3etd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231725178842:android:f33196dd59362b6bfa6ae3",
+        "android_client_info": {
+          "package_name": "com.jarvis.stormreminder.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231725178842-q85t31bc1denuvqg8hgdb0d755db3etd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL_eggFzRiTR9QTlGY_Q3UGPEiUZHDC1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231725178842-q85t31bc1denuvqg8hgdb0d755db3etd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
