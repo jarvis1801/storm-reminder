@@ -21,7 +21,7 @@ android {
     }
     signingConfigs {
         release {
-            storeFile file("/key/release-key.jks")
+            storeFile file("../key/release-key.jks")
             storePassword "123456789"
             keyAlias "chrisyaha"
             keyPassword "123456789"
@@ -62,6 +62,11 @@ android {
             versionName "1"
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -76,8 +81,13 @@ dependencies {
 
     // network
     implementation 'io.reactivex.rxjava3:rxkotlin:3.0.0'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
     implementation 'com.squareup.retrofit2:retrofit:2.8.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation "com.squareup.retrofit2:converter-scalars:2.3.0"
+    implementation "com.github.akarnokd:rxjava3-retrofit-adapter:3.0.0"
     implementation 'com.squareup.okhttp3:okhttp:4.4.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
 
     // firebase
     implementation 'com.google.firebase:firebase-analytics:17.2.3'
